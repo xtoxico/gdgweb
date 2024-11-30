@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@gdgweb/menu": ["libs/menu/src/index.ts"],
+      "@gdgweb/ponentes": ["libs/ponentes/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
